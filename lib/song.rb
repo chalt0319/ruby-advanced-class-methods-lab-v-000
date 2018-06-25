@@ -62,5 +62,10 @@ class Song
     person_with_artist.artist_name = joined_artist
     person_with_artist
   end 
+  
+  def create_from_filename(name)
+    self.new_from_filename.save 
+    
+  end 
 end
 
