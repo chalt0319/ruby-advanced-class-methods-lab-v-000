@@ -63,7 +63,7 @@ class Song
     person_with_artist
   end 
   
-  def create_from_filename(name)
+  def self.create_from_filename(name)
     new_artist = self.new_from_filename
     new_artist.save 
     
