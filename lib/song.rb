@@ -40,16 +40,11 @@ class Song
   end 
   
   def self.alphabetical
-    self.all.each do |song|
-      new_array = []
-      names = song.name 
-      new_array << names 
-    end 
-    new_array.sort 
-      
-      # all_of_them = self.all
-      # all_of_them.name.sort 
-  end
+    self.all.sort_by do |song|
+      song.name 
+    end  
+  end 
+    
   
 end
 
