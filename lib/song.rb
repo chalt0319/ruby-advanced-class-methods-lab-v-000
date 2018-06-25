@@ -47,7 +47,12 @@ class Song
     
   def self.new_from_filename(name)
     person_with_artist = self.new 
-    split_array = name.split(/\.| /)
+    split_array = name.split(/\-|\./)
+    array_name = split_array[0]
+    array_artist = split_array[1]
+    array_mp3 = split_array[2]
+    array_name.delete_if 
+    
     split_array_name = split_array.join
     
     @name = name 
