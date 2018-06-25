@@ -51,7 +51,8 @@ class Song
     array_name = split_array[0]
     array_artist = split_array[1]
     array_mp3 = split_array[2]
-    array_name.delete_if 
+    array_name.delete_if do |word|
+      word = " "
     
     split_array_name = split_array.join
     
