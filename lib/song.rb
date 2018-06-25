@@ -49,6 +49,7 @@ class Song
     person_with_artist = self.new 
     split_array = name.split(/\.| /)
     split_array_name = split_array.join
+    
     @name = name 
     @artist_name = artist_name
     person_with_artist.name = split_array[]
