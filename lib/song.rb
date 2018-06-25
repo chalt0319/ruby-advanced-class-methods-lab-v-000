@@ -55,7 +55,7 @@ class Song
     
     split_name = array_name.split(" ")
     joined_name = split_name.join(" ")
-    split_name = array_name.split(" ")
+    split_artist = array_name.split(" ")
     joined_name = split_name.join(" ")
     
     person_with_artist.name = joined_name
