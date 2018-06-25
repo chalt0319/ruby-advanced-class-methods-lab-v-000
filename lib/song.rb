@@ -49,8 +49,8 @@ class Song
     person_with_artist = self.new 
     split_array = name.split(/\-|\./)
     
-    array_name = split_array[0]
-    array_artist = split_array[1]
+    array_artist = split_array[0]
+    array_name = split_array[1]
     array_mp3 = split_array[2]
     
     split_name = array_name.split(" ")
