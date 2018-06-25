@@ -61,8 +61,8 @@ class Song
     person_with_artist.name = joined_name
     person_with_artist.artist_name = joined_artist
     
-    # @name = name 
-    # @artist_name = artist_name
+    @name = name 
+    @artist_name = artist_name
   end 
 end
 
