@@ -39,4 +39,16 @@ class Song
     return_value ? return_value : self.create_by_name(name)
   end 
   
+  def self.alphabetical
+    # self.all.each do |song|
+    #   new_array = []
+    #   names = song.name 
+    #   new_array << names 
+    # end 
+      
+      all_of_them = self.all
+      all_of_them.name.sort 
+  end
+  
 end
+
