@@ -55,15 +55,13 @@ class Song
     
     split_name = array_name.split(" ")
     joined_name = split_name.join(" ")
+    split_name = array_name.split(" ")
+    joined_name = split_name.join(" ")
     
     person_with_artist.name = joined_name
-   
     
-    split_array_name = split_array.join
-    
-    @name = name 
-    @artist_name = artist_name
-    person_with_artist.name = split_array[]
+    # @name = name 
+    # @artist_name = artist_name
   end 
 end
 
