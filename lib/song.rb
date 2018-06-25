@@ -45,7 +45,6 @@ class Song
       names = song.name 
       new_array << names 
     end 
-    binding.pry 
     new_array.sort 
       
       # all_of_them = self.all
