@@ -60,7 +60,7 @@ class Song
     
     person_with_artist.name = joined_name
     person_with_artist.artist_name = joined_artist
-    
+    person_with_artist
   end 
 end
 
